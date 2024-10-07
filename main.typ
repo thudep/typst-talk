@@ -127,11 +127,12 @@
 #slide()[
 / 语法简洁: #Typst 的语法简洁易懂，可读性高。此外，#Typst 是图灵完备的，而#LaTeX 则是基于宏替换。
 #pause
-/ 不稳定: #Typst 并非可以完全替代#LaTeX，也存在一些不便，例如我遇到过以下问题。
+/ 不完善: #Typst 并非可以完全替代#LaTeX，也存在一些不便，例如我遇到过以下问题。
   - 不能直接插入`pdf`格式的图片，需要手动转为`svg`格式，参见#link("https://github.com/typst/typst/issues/145")[Issue \#145]
   - 首行缩进存在问题，参见#link("https://github.com/typst/typst/issues/311")[Issue \#311]
-  - 生成文档更大（一般是2倍左右），参见#link("https://github.com/typst/typst/discussions/404")[Why does typst generate much larger pdf than TeX? · typst/typst · Discussion #404]
+  - 生成文档更大（一般是2倍以上），参见#link("https://github.com/typst/typst/discussions/404")[Why does typst generate much larger pdf than TeX? · typst/typst · Discussion #404]
   - 缺乏好用的格式化工具，参见#link("https://github.com/typst/typst/issues/1772")[Issue \#1772]
+  - 还未实现文字环绕图片，参见#link("https://github.com/typst/typst/discussions/1069")[How to wrap text around an image? · typst/typst · Discussion #1069]
 ]
 = 快速上手
 == 安装
