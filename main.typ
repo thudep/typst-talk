@@ -353,8 +353,10 @@ Super-K确定了太阳中微子振荡参数@fukuda_determination_2002 // 引用�
   - 页面微雕技术
 #pause
 / 幻灯片: #link("https://github.com/adamanteye/note/blob/master/%E4%B8%AD%E5%AD%90%E7%89%A9%E7%90%86%E5%AF%BC%E8%AE%BA/%E7%AC%AC%E4%BA%8C%E6%AC%A1%E5%A4%A7%E4%BD%9C%E4%B8%9A/main.typ")[note/中子物理导论/第二次大作业/main.typ at master · adamanteye/note]
-  - 使用了`touying`包，展示了如何使用#Typst 简单幻灯片
+  - 使用了`touying`包，展示了如何使用#Typst 制作简单幻灯片
   - 更多的动画需要`pinit`包，大家可自行探索
+#pause
+/ 另一个幻灯片: #link("https://github.com/thudep/typst-talk")[thudep/typst-talk: 2024年春typst讲座] 本幻灯片的代码
 = 总结
 == 相关资料
 #slide()[
