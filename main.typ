@@ -131,7 +131,7 @@
   - 不能直接插入`pdf`格式的图片，需要手动转为`svg`格式，参见#link("https://github.com/typst/typst/issues/145")[Issue \#145]
   - 首行缩进存在问题，参见#link("https://github.com/typst/typst/issues/311")[Issue \#311]
   - 生成文档更大（一般是2倍左右），参见#link("https://github.com/typst/typst/discussions/404")[Why does typst generate much larger pdf than TeX? · typst/typst · Discussion #404]
-  - 缺乏好用的格式化工具，参加#link("https://github.com/typst/typst/issues/1772")[Issue \#1772]
+  - 缺乏好用的格式化工具，参见#link("https://github.com/typst/typst/issues/1772")[Issue \#1772]
 ]
 = 快速上手
 == 安装
@@ -307,15 +307,14 @@ table(columns: 3,
 ```
 关于`figure`是否应该包含`table`以及`image`，参考#link("https://github.com/typst/typst/issues/1058")[Issue \#1058]
 == 包管理
-包是模板或库，通过精确指定名称及版本号引入，会被本地的#Typst 工具自动管理，按需下载。
+包是模板或库，通过精确指定名称及版本号引入，会被本地的#Typst 工具自动管理，按需下载。访问#link("https://typst.app/universe/")[Typst Universe]了解#Typst 社区生态。
 ```
 #import "@preview/physica:0.9.3": *
 ```
-访问#link("https://typst.app/universe/")[Typst Universe]了解#Typst 社区生态。
 #pause
-常用的包：
 - #link("https://typst.app/universe/package/physica")[physica – Typst Universe] 对标#LaTeX 中的physics，语法相近。
 - #link("https://typst.app/universe/package/ctheorems")[ctheorems – Typst Universe] 定义定理证明环境。
+- #link("https://github.com/OrangeX4/typst-cheq")[OrangeX4/typst-cheq] 漂亮的Markdown风格复选框
 - #link("https://typst.app/universe/package/mitex")[mitex – Typst Universe] #LaTeX 公式转为#Typst 格式。
 - #link("https://typst.app/universe/package/touying")[touying – Typst Universe] 本幻灯片用其制作，对标#LaTeX 中的beamer。
 - #link("https://typst.app/universe/package/modern-cv")[modern-cv – Typst Universe] 简历模板
