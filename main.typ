@@ -120,7 +120,7 @@
 #pause
 / 生态蓬勃: 勃勃生机，万物竞发。
 
-  #grid(columns: 3, column-gutter: 1em, [2019年，两个德国大学生不满#LaTeX 的迟缓，他们决定从头开始，自己使用Rust编程语言开发一套排版软件。],image("laurenz-2x.jpg", width: 4em), image("martin-2x.jpg", width: 4em))
+  #grid(columns: 3, column-gutter: 1em, [2019年，两个德国大学生不满#LaTeX 的迟缓，他们决定从头开始，自己使用Rust编程语言开发一套排版软件。],image("pic/laurenz-2x.jpg", width: 4em), image("pic/martin-2x.jpg", width: 4em))
 
   作为对比，#TeX 的版本号采用收敛到 "圆周率" 的方式命名，每更新一次，就多取一位小数（例如我的xelatex版本为`3.141592653`）。因为开发者Donald E. Knuth认为他的软件已经完美无缺（事实上确实没有多少bug），不会再有功能更新。
 ]
@@ -271,7 +271,7 @@ very #text(1.5em)[big] text and #text(size: .5em)[small] text
   @a-label 展示了基本粒子。
   ```
   ], [
-    #image("1.png",height: 40%)
+    #image("pic/1.png",height: 40%)
   ])
   #grid(columns: (1fr,1fr), column-gutter: 1em, [
   多张图片的排版借助于`grid`函数
@@ -279,7 +279,7 @@ very #text(1.5em)[big] text and #text(size: .5em)[small] text
   #grid(columns: 2, column-gutter: 1em, figure(image("9.jpg",height: 70%), caption: "Super-K剖面"), figure(image("10.jpg", height: 80%), caption: "Super-K广角摄影"))
   ```
   ], [
-    #image("2.png",height: 40%)
+    #image("pic/2.png",height: 40%)
   ])
 == 表格
 #figure(
