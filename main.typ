@@ -130,7 +130,10 @@
 / 不完善: #Typst 并非可以完全替代#LaTeX，也存在一些不便，例如我遇到过以下问题。
   - 不能直接插入`pdf`格式的图片，需要手动转为`svg`格式，参见#link("https://github.com/typst/typst/issues/145")[Issue \#145]
   - 首行缩进存在问题，参见#link("https://github.com/typst/typst/issues/311")[Issue \#311]
-  - 生成文档更大（一般是2倍以上），参见#link("https://github.com/typst/typst/discussions/404")[Why does typst generate much larger pdf than TeX? · typst/typst · Discussion #404]
+]
+#slide()[
+/ 不完善: #Typst 并非可以完全替代#LaTeX，也存在一些不便，例如我遇到过以下问题。
+  - #strike[生成文档更大（一般是2倍以上），参见#link("https://github.com/typst/typst/discussions/404")[Why does typst generate much larger pdf than TeX? · typst/typst · Discussion #404]] 已在#link("https://typst.app/docs/changelog/0.12.0/")[0.12.0]修复
   - 缺乏好用的格式化工具，参见#link("https://github.com/typst/typst/issues/1772")[Issue \#1772]
   - 还未实现文字环绕图片，参见#link("https://github.com/typst/typst/discussions/1069")[How to wrap text around an image? · typst/typst · Discussion #1069]
 ]
