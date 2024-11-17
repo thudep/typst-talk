@@ -5,7 +5,7 @@
 #let typst-color = rgb("#239DAD")
 #let tsinghua-color = rgb(106,8,116)
 
-#set text(font: ("Linux Libertine", "Source Han Serif"), lang: "zh", region: "cn")
+#set text(font: ("Libertinus Serif", "Source Han Serif"), lang: "zh", region: "cn")
 #show heading.where(level: 1): set heading(numbering: "1.")
 #show: university-theme.with(
   aspect-ratio: "16-9",
@@ -177,7 +177,7 @@
 == 字体
 #slide()[
 - #Typst 本身不分发字体，而是使用本地计算机上已有的字体。
-  
+
   例如在VS Code中打开终端，输入以下命令，可以得到系统中已安装的字体列表，这些字体都可被#Typst 使用。
   ```sh
   typst fonts
@@ -286,7 +286,7 @@ very #text(1.5em)[big] text and #text(size: .5em)[small] text
   ])
 == 表格
 #figure(
-table(columns: 3, 
+table(columns: 3,
   table.header(
     [Substance],
     [Subcritical °C],
@@ -299,7 +299,7 @@ table(columns: 3,
 ), caption: "表格示例")
 ```
 #figure(
-table(columns: 3, 
+table(columns: 3,
   table.header(
     [Substance], [Subcritical °C], [Supercritical °C],
   ),
