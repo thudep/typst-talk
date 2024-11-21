@@ -371,6 +371,7 @@ Super-K确定了太阳中微子振荡参数@fukuda_determination_2002 // 引用�
   / 遇到问题怎么办: 使用Google搜索，关注StackExchange等高质量社区回答
   / 打字慢怎么办: 尝试Copilot等自动补全工具，发现灌水新途径
   / 想压缩插图: #link("https://github.com/funbox/optimizt")[funbox/optimizt: CLI image optimization tool] `nodejs` 图像压缩工具
+  / Typst可以有多酷: #link("https://blog.mgt.moe/posts/typst-in-2023/")[我与 typst 的 2023 | LuNaTiC World]
 ]
 == 参考与鸣谢
 - #Typst 官方文档等，在此不再详细列举
